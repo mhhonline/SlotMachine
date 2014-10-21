@@ -13,6 +13,9 @@
 		33DECB1819F6A6EE00169AEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33DECB1719F6A6EE00169AEF /* Images.xcassets */; };
 		33DECB1B19F6A6EE00169AEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33DECB1919F6A6EE00169AEF /* LaunchScreen.xib */; };
 		33DECB2719F6A6EE00169AEF /* SlotMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DECB2619F6A6EE00169AEF /* SlotMachineTests.swift */; };
+		33DECB3119F6BAF500169AEF /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DECB3019F6BAF500169AEF /* Slot.swift */; };
+		33DECB3319F6BB3700169AEF /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DECB3219F6BB3700169AEF /* Factory.swift */; };
+		33DECB3519F6C75A00169AEF /* SlotBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DECB3419F6C75A00169AEF /* SlotBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		33DECB2019F6A6EE00169AEF /* SlotMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33DECB2519F6A6EE00169AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33DECB2619F6A6EE00169AEF /* SlotMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineTests.swift; sourceTree = "<group>"; };
+		33DECB3019F6BAF500169AEF /* Slot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slot.swift; sourceTree = "<group>"; };
+		33DECB3219F6BB3700169AEF /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		33DECB3419F6C75A00169AEF /* SlotBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				33DECB1719F6A6EE00169AEF /* Images.xcassets */,
 				33DECB1919F6A6EE00169AEF /* LaunchScreen.xib */,
 				33DECB0E19F6A6EE00169AEF /* Supporting Files */,
+				33DECB3019F6BAF500169AEF /* Slot.swift */,
+				33DECB3219F6BB3700169AEF /* Factory.swift */,
+				33DECB3419F6C75A00169AEF /* SlotBrain.swift */,
 			);
 			path = SlotMachine;
 			sourceTree = "<group>";
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33DECB3319F6BB3700169AEF /* Factory.swift in Sources */,
 				33DECB1319F6A6EE00169AEF /* ViewController.swift in Sources */,
+				33DECB3119F6BAF500169AEF /* Slot.swift in Sources */,
 				33DECB1119F6A6EE00169AEF /* AppDelegate.swift in Sources */,
+				33DECB3519F6C75A00169AEF /* SlotBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

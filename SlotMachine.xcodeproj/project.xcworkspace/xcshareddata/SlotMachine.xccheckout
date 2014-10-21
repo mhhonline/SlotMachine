@@ -12,20 +12,24 @@
 	<dict>
 		<key>39D593985D1A78355E75A17A34576ABD28DCD363</key>
 		<string>https://github.com/mhhonline/Postcard.git</string>
+		<key>F11FBC6E9234B0DEC6BBF6C292A99A6926E29216</key>
+		<string>https://github.com/mhhonline/SlotMachine.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SlotMachine/SlotMachine.xcodeproj</string>
+	<string>SlotMachine.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>39D593985D1A78355E75A17A34576ABD28DCD363</key>
-		<string>../../..</string>
+		<string>../../../IOS</string>
+		<key>F11FBC6E9234B0DEC6BBF6C292A99A6926E29216</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/mhhonline/Postcard.git</string>
+	<string>https://github.com/mhhonline/SlotMachine.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>39D593985D1A78355E75A17A34576ABD28DCD363</string>
+	<string>F11FBC6E9234B0DEC6BBF6C292A99A6926E29216</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>39D593985D1A78355E75A17A34576ABD28DCD363</string>
 			<key>IDESourceControlWCCName</key>
 			<string>IOS</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F11FBC6E9234B0DEC6BBF6C292A99A6926E29216</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SlotMachine</string>
 		</dict>
 	</array>
 </dict>
