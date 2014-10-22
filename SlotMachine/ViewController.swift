@@ -254,6 +254,12 @@ class ViewController: UIViewController {
         removeSlotImageViews()
         slots = Factory.createSlots()
         setupSecondContainer(self.secondContainer)
+//        println("before winning Multiplayer!!")
+        var winningMultiplier = SlotBrain.computeWinnings(slots)
+        winnings = winningMultiplier * currentBet
+        credits += winnings
+        currentBet = 0
+        updateMainView()
     }
     
     func removeSlotImageViews()
